@@ -67,6 +67,8 @@ To run:
 Cmd + U
 ```
 
+Tests run successfully on the iOS Simulator. Running directly on a physical device may require additional configuration in the Test target build settings.
+
 ---
 
 ## 🚀 Future Improvements
