@@ -29,20 +29,40 @@
 		3D0086642E846293005A65D2 /* CiandtTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiandtTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3D0086A52E8465B9005A65D2 /* Exceptions for "CiandtTest" folder in "CiandtTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/CiandtTestTests/FetchPostsUseCaseTests.swift,
+				Tests/CiandtTestUITests/CiandtTestUITests.swift,
+			);
+			target = 3D00864C2E846291005A65D2 /* CiandtTest */;
+		};
+		3D0086A62E8465B9005A65D2 /* Exceptions for "CiandtTest" folder in "CiandtTestTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/CiandtTestTests/FetchPostsUseCaseTests.swift,
+			);
+			target = 3D0086592E846293005A65D2 /* CiandtTestTests */;
+		};
+		3D0086A72E8465B9005A65D2 /* Exceptions for "CiandtTest" folder in "CiandtTestUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/CiandtTestUITests/CiandtTestUITests.swift,
+			);
+			target = 3D0086632E846293005A65D2 /* CiandtTestUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3D00864F2E846291005A65D2 /* CiandtTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3D0086A52E8465B9005A65D2 /* Exceptions for "CiandtTest" folder in "CiandtTest" target */,
+				3D0086A62E8465B9005A65D2 /* Exceptions for "CiandtTest" folder in "CiandtTestTests" target */,
+				3D0086A72E8465B9005A65D2 /* Exceptions for "CiandtTest" folder in "CiandtTestUITests" target */,
+			);
 			path = CiandtTest;
-			sourceTree = "<group>";
-		};
-		3D00865D2E846293005A65D2 /* CiandtTestTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CiandtTestTests;
-			sourceTree = "<group>";
-		};
-		3D0086672E846293005A65D2 /* CiandtTestUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CiandtTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,8 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				3D00864F2E846291005A65D2 /* CiandtTest */,
-				3D00865D2E846293005A65D2 /* CiandtTestTests */,
-				3D0086672E846293005A65D2 /* CiandtTestUITests */,
 				3D00864E2E846291005A65D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +148,6 @@
 			dependencies = (
 				3D00865C2E846293005A65D2 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				3D00865D2E846293005A65D2 /* CiandtTestTests */,
-			);
 			name = CiandtTestTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +167,6 @@
 			);
 			dependencies = (
 				3D0086662E846293005A65D2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3D0086672E846293005A65D2 /* CiandtTestUITests */,
 			);
 			name = CiandtTestUITests;
 			packageProductDependencies = (
