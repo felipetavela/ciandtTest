@@ -1,5 +1,9 @@
 # CI&T TestApp 📱
 
+![Swift](https://img.shields.io/badge/Swift-5.9-orange?logo=swift&logoColor=white)
+![Platform](https://img.shields.io/badge/iOS-17-lightgrey?logo=apple)
+![Architecture](https://img.shields.io/badge/Architecture-MVVM%20+%20Clean-blue)
+
 This project was developed as part of an CI&T technical test.  
 The app consumes the [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts) API and displays a list of posts with individual details.
 
@@ -47,7 +51,7 @@ This separation ensures **low coupling**, **testability**, and **clear responsib
 ## ▶️ How to Run
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/felipetavela/ciandtTest
    ```
 2. Open the project in **Xcode 15+**
 3. Run on simulator (**iOS 17+**)
@@ -79,3 +83,4 @@ With more time, the project could be improved with:
 
 ## 👨‍💻 Author
 Developed by Felipe Tavela
+[LinkedIn](https://www.linkedin.com/in/felipetavela) | [GitHub](https://github.com/felipetavela)
